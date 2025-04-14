@@ -1,0 +1,141 @@
+
+body{
+	font-family: Helvetica;
+	background: #F1F0E8;
+}
+ 
+h1{
+	text-align: center;
+	/*ketebalan font*/
+	font-weight: 300;
+}
+ 
+.tulis_login{
+	text-align: center;
+	/*membuat semua huruf menjadi kapital*/
+	text-transform: uppercase;
+}
+ 
+.Kotak_login{
+	width: 400px;
+	background: #E5E1DA;
+	/*meletakkan form ke tengah*/
+	margin: 180px auto;
+	padding: 30px 20px;
+	border-radius: 5%;
+}
+ 
+label{
+	font-size: 11pt;
+}
+ 
+.form_login{
+	/*membuat lebar form penuh*/
+	box-sizing : border-box;
+	width: 100%;
+	padding: 10px;
+	font-size: 11pt;
+	margin-bottom: 20px;
+}
+ 
+.tombol_login{
+	background: #B3C8CF;
+	color: black;
+	font-size: 11pt;
+	width: 100%;
+	border: none;
+	border-radius: 3px;
+	padding: 10px 20px;
+	text-align: center;
+	
+}
+
+
+.container {
+	width: 80%;
+	margin: auto;
+	text-align: center;
+}
+
+h2 {
+	margin-top: 20px;
+	text-align: center;
+	font-size: 24px;
+	color :black;
+}
+
+table {
+	margin: 20px auto;
+	border-collapse: collapse;
+	width: 100%;
+	max-width: 800px;
+}
+
+ table th, table td {
+	border: 1px;
+	padding: 8px;
+	text-align: left;
+ }
+
+ table th {
+	background-color: #B3C8CF;
+
+ }
+
+ form {
+	margin: 20px;
+	text-align: left;
+	display: inline-block;
+ }
+
+ form input[type="text"] {
+	margin-bottom: 10px;
+	width: 100%;
+	max-width: 300px;
+	padding: 8px;
+ }
+
+ form input[type="submit"] {
+	padding: 10px 20px;
+	background-color: #22177A;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+ }
+
+ form input[type="submit"]:hover {
+	background-color: #0056b3;
+ }
+
+ .btn-logout {
+	text-decoration: none;
+	background-color: #ff4d4d;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 5px;
+	border: 1px solid #ff0000;
+	font-size: 16px;
+	cursor: pointer;
+	transition: background color 0.3s ease;
+ }
+
+ .btn-logout:hover {
+	background-color: #ff0000;
+ }
+
+
+ .btn-kembali {
+	text-decoration: none;
+	background-color: #22177A;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 5px;
+	border: 1px solid #B3C8CF;
+	font-size: 16px;
+	cursor: pointer;
+	transition: background color 0.3s ease;
+ }
+
+ .btn-kembali:hover {
+	background-color: #0056b3;
+ }
