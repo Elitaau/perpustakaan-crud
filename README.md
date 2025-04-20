@@ -28,3 +28,5 @@ Ini adalah file file tentang aplikasi curd sederhana tentang perpustakaan ⋆˚�
 1. admin : 123
 2. user1 : 123
 3. user2 : 123
+
+Thank you and enjoy gais ✎ᝰ.📓
